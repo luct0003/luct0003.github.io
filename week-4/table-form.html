@@ -4,9 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tables and Forms</title>
 </head>
 <body>
+    <section>
+        <h2>Forms</h2>
+        <form action="http://google.com" method="get">
+            <div>
+                <label for="fullname">Full Name</label>
+                <input id="fullname" type="text" name="fullname">
+            </div>
+            <div>
+                <label for="message">Your message</label>
+                <textarea id="message" name="message"></textarea>
+            </div>
+            <div>
+                <input type="submit" value="send">
+            </div>
+        </form>
+    </section>
+    <section>
+        <h2>Tables</h2>
+        <table>
+            <caption>Student Information</caption>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Level</th>
+                    <th>Section</th>
+                    <th>Student Number</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Zack Luctkar</td>
+                    <td>Level 1</td>
+                    <td>010</td>
+                    <td>040971987</td>
+                </tr>
+                <tr>
+                    <td>Jane</td>
+                    <td>Level 2</td>
+                    <td>110</td>
+                    <td>040987654</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
     
 </body>
 </html>
