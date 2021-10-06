@@ -1,4 +1,19 @@
 body {
     color: cadetblue;
 }
-/* This is a CSS comment*/
+p, li {
+    color: darkslategray;
+}
+/* Target child elements*/
+section h1 {
+    Color: red;
+}
+/*style a class*/
+
+.secondary-heading{
+    color: darkturquoise;
+}
+/*style an id*/
+#main-section {
+    color: goldenrod;
+}
