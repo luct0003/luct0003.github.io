@@ -3,14 +3,22 @@ body{
     font-size: 18px;
 }
 header, footer{
-    background-color: gray
+    background-color: lightcyan
 }
 .site-title{
     color: teal;
 }
 #my-image{
-
+    box-shadow: 0px 0px 2px 1px black
 }
 li:nth-child(odd) {
     background-color: gray;
+}
+a {
+    color: teal;
+    text-decoration: none;
+    background-color: lightcyan;
+}
+a :hover{
+    background-color:lightcoral
 }
