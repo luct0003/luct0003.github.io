@@ -1,0 +1,16 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+header, footer{
+    background-color: gray
+}
+.site-title{
+    color: teal;
+}
+#my-image{
+
+}
+li:nth-child(odd) {
+    background-color: gray;
+}
