@@ -1,6 +1,8 @@
+/* This is a CSS comment*/
 body {
     color: cadetblue;
 }
+/* Change color of all paragraph and list items*/
 p, li {
     color: darkslategray;
 }
