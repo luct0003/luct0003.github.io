@@ -12,11 +12,11 @@ section h1 {
 }
 /*style a class*/
 
-.secondary-heading{
+.secondary-heading{ /* 0,0,1,0 */
     color: darkturquoise;
 }
 /*style an id*/
-#main-section {
+#main-section { /* 0,1,0,0 */
     color: goldenrod;
 }
 
