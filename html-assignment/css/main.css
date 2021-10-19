@@ -14,11 +14,23 @@ header, footer{
 li:nth-child(odd) {
     background-color: gray;
 }
-a {
+a :link{
     color: teal;
     text-decoration: none;
     background-color: lightcyan;
 }
+a :visited{
+    color:grey;
+    text-decoration: none;
+    background-color: lightcyan;
+}
 a :hover{
-    background-color:lightcoral
+    color:lightcoral;
+    text-decoration: none;
+    background-color: lightcyan;
+}
+a :active{
+    color:black;
+    text-decoration: none;
+    background-color: lightcyan;
 }
