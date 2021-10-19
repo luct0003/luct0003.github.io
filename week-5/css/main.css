@@ -19,3 +19,10 @@ section h1 {
 #main-section {
     color: goldenrod;
 }
+
+a{
+    color: red;
+}
+a[href ="https://www.algonquincollege.com/"]{
+    color: green;
+}
