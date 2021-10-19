@@ -11,25 +11,25 @@ header, footer{
 #my-image{
     box-shadow: 0px 0px 2px 1px black
 }
-li:nth-child(odd) {
+li:nth-child(odd){
     background-color: gray;
 }
-a :link{
+a:link{
     color: teal;
     text-decoration: none;
     background-color: lightcyan;
 }
-a :visited{
+a:visited{
     color:grey;
     text-decoration: none;
     background-color: lightcyan;
 }
-a :hover{
+a:hover{
     color:lightcoral;
     text-decoration: none;
     background-color: lightcyan;
 }
-a :active{
+a:active{
     color:black;
     text-decoration: none;
     background-color: lightcyan;

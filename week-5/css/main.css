@@ -1,5 +1,5 @@
 /* This is a CSS comment*/
-body {
+body { /* 0,0,0,1 */
     color: cadetblue;
 }
 /* Change color of all paragraph and list items*/
@@ -23,6 +23,27 @@ section h1 {
 a{
     color: red;
 }
-a[href ="https://www.algonquincollege.com/"]{
+/* LVHA */
+a:link {
+    color: red;
+    text-decoration: none;
+}
+
+a:visited {
+    color: gray;
+}
+
+a:hover {
+    color: black;
+}
+
+a:active {
+    color: white;
+}
+
+a[href="http://algonquincollege.com"] {
     color: green;
+}
+li:nth-child(odd) {
+    background-color: gray;
 }
