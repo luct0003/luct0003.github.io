@@ -1,4 +1,98 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*CSS*/
+
 html{
     background-color: #aad4cf;
     margin: 0 15%;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d4e9e7;
+}
+h1{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -170px;
+    width: 100%;
+    font-size: 3.25em;
+}
+header img{
+    width:100%;
+}
+main{
+    margin: 10px;
+    position: relative;
+    top: -120px;
+}
+nav ul{
+    list-style: none;
+    text-align: center;
+    position: relative;
+    height:30px;
+}
+nav ul li{
+    float: left;
+    padding: 7px 13%;
+}
+nav ul li:not(:first-child){
+    border-left: solid black 1px;
+}
+article img{
+    width: 190px;
+    height: 190px;
+    float:left;
+    margin-right: 10px;
+    line-height: 1.5em;
+}
+form{
+border: solid black 1px;
+padding: 1%;
+}
+.field{
+    width:99%;
+}
+#form-button{
+    margin: 5px;
+    padding:8px;
+    background: none;
+    border:solid black 1px;
+    font-size: .5em;
+}
+footer{
+    text-align: right;
 }
