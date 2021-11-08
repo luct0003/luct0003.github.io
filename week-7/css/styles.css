@@ -21,6 +21,8 @@ nav ul li{
     padding: 10px;
     border:5px solid gray;
     margin: 10px;
+    /*flot the boxes beside eachother*/
+    float: left;
 }
 
 /*center a box level element*/
@@ -34,4 +36,10 @@ nav ul li{
 
 .box2{
     box-sizing: border-box;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
 }
