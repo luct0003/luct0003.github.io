@@ -1,0 +1,36 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+nav ul li{
+    display: inline;
+}
+
+.box{
+    width: 200px;
+    background-color: teal;
+    color: #eee;
+    /*Introduce box model*/
+    padding: 10px;
+    border:5px solid gray;
+    margin: 10px;
+}
+
+/*center a box level element*/
+/* .box1{
+    margin: 0 auto;
+} */
+
+.box1{
+    box-sizing: content-box;
+}
+
+.box2{
+    box-sizing: border-box;
+}
