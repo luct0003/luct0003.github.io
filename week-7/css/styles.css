@@ -43,3 +43,19 @@ nav ul li{
     display: table;
     clear: both;
 }
+/*CSS Positioning*/
+
+.stage {
+    height: 500px;
+    background-color: #aaaaaa;
+}
+.prop {
+    height: 100px;
+    width: 100px;
+    background-color: cadetblue;
+
+    /*add positioning values*/
+    position: relative;
+    top: 100px;
+    left: 10px;
+}
