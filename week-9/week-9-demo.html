@@ -15,7 +15,6 @@
                 padding: 0; margin: 0;
                 font-size: 1.5rem;
             }
-
             h1,h2,h3,h4,h5,h6,p{
                 margin: 0;
             }
@@ -24,9 +23,15 @@
                 margin: 0 auto;
                 background: #eee;
             }
-
+            header{
+                background: beige;
+                color:grey;
+            }
             .container{
-                padding: 20px;
+                width: auto;
+                padding: 0px;
+                margin: 0 auto;
+
             }
 
             /*TABLET WIDTH: APPROX 600-1000px*/
@@ -35,9 +40,11 @@
                 body{
                     font-size: 2.5rem;
                 }
-
                 header{
                     background: teal;
+                }
+                .container{
+                    width: 500px;
                 }
             }
 
@@ -45,12 +52,15 @@
             @media  screen and (min-width: 1000px){
 
                 body{
-                    font-size: 2.5rem;
+                    font-size: 3.5rem;
+                }
+                header{
+                    background:magenta;
+                }
+                .container{
+                    width: 900px;
                 }
 
-                header{
-                    background: teal;
-                }
             }
     </style>
 
@@ -60,7 +70,10 @@
 
         <header>
             <div class="container">
-                <h1>Header</h1>
+            
+                <img src="img/suitdog.jpeg" alt="SuitDog">
+
+                <!-- <h1>Header</h1> -->
             </div>
         </header>
         <main>
