@@ -31,8 +31,13 @@
                 width: auto;
                 padding: 0px;
                 margin: 0 auto;
-
             }
+            img{
+                max-width: 100%;
+            }
+
+            .small{ display:block; }
+            .large{ display: none;}
 
             /*TABLET WIDTH: APPROX 600-1000px*/
             @media  screen and (min-width: 600px) and (max-width: 999px){
@@ -60,6 +65,8 @@
                 .container{
                     width: 900px;
                 }
+                .small{display: none;}
+                .large{display: block;}
 
             }
     </style>
@@ -71,9 +78,11 @@
         <header>
             <div class="container">
             
-                <img src="img/suitdog.jpeg" alt="SuitDog">
+                <img class="small" src="images/suitdog.jpeg" alt="SuitDog">
 
-                <!-- <h1>Header</h1> -->
+                <img class="large" src="images/dawg.jpeg" alt="Dawg">
+
+                <h1>Header</h1>
             </div>
         </header>
         <main>
