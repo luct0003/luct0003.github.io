@@ -8,14 +8,60 @@
 
     <style>
 
+        /* DEFAULT / MOBILE-FIRST STYLES*/
+
+            body{
+                background-color: coral;
+                padding: 0; margin: 0;
+                font-size: 1.5rem;
+            }
+
+            h1,h2,h3,h4,h5,h6,p{
+                margin: 0;
+            }
+            header, main, footer{
+                width: 100%;
+                margin: 0 auto;
+                background: #eee;
+            }
+
+            .container{
+                padding: 20px;
+            }
+
+            /*TABLET WIDTH: APPROX 600-1000px*/
+            @media  screen and (min-width: 600px) and (max-width: 999px){
+
+                body{
+                    font-size: 2.5rem;
+                }
+
+                header{
+                    background: teal;
+                }
+            }
+
+            /*DESKTOP WIDTH: 1000px + */
+            @media  screen and (min-width: 1000px){
+
+                body{
+                    font-size: 2.5rem;
+                }
+
+                header{
+                    background: teal;
+                }
+            }
     </style>
 
 </head>
 <body>
     
-    <div class="container">
+
         <header>
-            <h1>Header</h1>
+            <div class="container">
+                <h1>Header</h1>
+            </div>
         </header>
         <main>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste rerum, laudantium, iure dolorum alias a nobis neque dignissimos asperiores, consequuntur dicta! Quidem assumenda similique facilis nihil quam sapiente quos atque.</p>
@@ -23,7 +69,6 @@
         <footer>
             &copy; Algoncuin College
         </footer>
-    </div>
 
 </body>
 </html>
