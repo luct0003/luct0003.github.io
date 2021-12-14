@@ -12,7 +12,7 @@
 <body>
     <header class="header-box">
         <nav class="topnav" id="home">
-            <img src="images/logo.png" alt="Logo">
+            <img class="logo"src="images/logo.png" alt="Logo">
             <ul class="nav-list">
                 <li class="active"><a href="#home">Home</a></li>
                 <li><a href="#about">About Us</a></li>
@@ -21,17 +21,19 @@
                 <li><a href="#contact">Contact</a></li>
             </ul>
             <div class="search-container">
-            <form action="/action_page.php">
+            <form  class="search-form" action="/action_page.php">
                 <input type="text" placeholder="Search.." name="search">
                 <button class="go-button" type="submit">Go!</button>
             </form>
             </div>
         </nav>
         <!--Will style in orange hover over black top bar with css, order changed with css-->
-        <div class="welcome">
-            <h1>Welcome to Three Star Media</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa reprehenderit fuga, voluptatibus incidunt doloremque labore ad animi sed officia, laudantium accusantium iste iure itaque consectetur quo dolorem excepturi vero eveniet!</p>
-            <button class="orange-button" href='#contact'>Connect with us</button>
+        <div class="welcome-background">
+            <div class="welcome">
+                <h1>Welcome to Three Star Media</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa reprehenderit fuga, voluptatibus incidunt doloremque labore ad animi sed officia, laudantium accusantium iste iure itaque consectetur quo dolorem excepturi vero eveniet!</p>
+                <button class="orange-button" href='#contact'>Connect with us</button>
+            </div>
         </div>
         <!--Css for image background, opaque box, and button, different on mobile-->
     </header>
@@ -42,9 +44,9 @@
             </div>
             <div class="about-content">
                 <h2>About us</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil, aliquam? Consequuntur, dicta deserunt? Laudantium voluptatum facilis fugiat. Fugiat quas sapiente tempore! Rerum dicta cumque ipsum laborum itaque soluta enim nemo.
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil, aliquam? Consequuntur, dicta deserunt? Laudantium voluptatum facilis fugiat. Fugiat quas sapiente tempore! Rerum dicta cumque ipsum laborum itaque soluta enim nemo.</p>
 
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa reiciendis aliquam iste deserunt expedita voluptate ea unde, labore velit maxime dolore nihil at totam molestiae inventore neque omnis exercitationem facere?
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa reiciendis aliquam iste deserunt expedita voluptate ea unde, labore velit maxime dolore nihil at totam molestiae inventore neque omnis exercitationem facere?
                 </p>
             </div>
         </div>
@@ -52,41 +54,41 @@
         <div class="services-main" id="services">
             <h2>Our Services</h2>
             <div class="services-inter">
-                <div class=serv-box-1>
+                <div class="serv-box-1" id="serv-box">
                     <div class="s-box-1-img"><img src="images/digital.jpg" alt=digital-transformation></div>
-                    <div class="s-box-1-text">
+                    <div class="s-box-1-text" id="s-box-text">
                         <h3>Digital Transformation</h3>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit magni rerum nisi aut fugit. Reiciendis repudiandae rem ab est in atque veniam eos explicabo voluptatibus culpa perspiciatis assumenda, sequi dignissimos.</p>
                         <button class="black-button" href='#digital-p'>Digital Plans</button>
                     </div>
                 </div>
-                <div class=serv-box-2>
+                <div class="serv-box-2" id="serv-box">
                     <div class="s-box-2-img"><img src="images/marketing.jpg" alt="marketing"></div>
-                    <div class="s-box-2-text">
+                    <div class="s-box-2-text" id="s-box-text">
                         <h3>Marketing</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, ex voluptas. Officia iste aspernatur commodi iure harum dolores provident, minima suscipit quo consectetur ipsam eveniet sunt omnis eaque nemo quaerat.</p>
                         <button class="black-button" href='#marketing-p'>Marketing Plans</button>
                     </div>
                 </div>
-                <div class=serv-box-3>
+                <div class="serv-box-3" id="serv-box">
                     <div class="s-box-3-img"><img src="images/video.jpg" alt="video-production"></div>
-                    <div class="s-box-3-text">
+                    <div class="s-box-3-text" id="s-box-text">
                         <h3>Video Production</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, magnam in! Reprehenderit, temporibus? Perferendis sint debitis quaerat autem at eveniet veniam, necessitatibus recusandae? Porro recusandae consequuntur, perspiciatis itaque tenetur iusto!</p>
                         <button class="black-button" href='#video-p'>Video Plans</button>
                     </div>
                 </div>
-                <div class=serv-box-4>
+                <div class="serv-box-4" id="serv-box">
                     <div class="s-box-4-img"><img src="images/web.jpg" alt="web-development"></div>
-                    <div class="s-box-4-text">
+                    <div class="s-box-4-text" id="s-box-text">
                         <h3>Wed Development</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae quis saepe earum, laboriosam officia ipsa voluptas, pariatur neque tempora quaerat reprehenderit, illo voluptatem atque asperiores fugiat fugit nemo distinctio ipsum.</p>
                         <button class="black-button" href='#web-p'>Web Plans</button>
                     </div>
                 </div>
-                <div class=serv-box-5>
+                <div class="serv-box-5" id="serv-box">
                     <div class="s-box-5-img"><img src="images/digital.jpg" alt="print"></div>
-                    <div class="s-box-5-text">
+                    <div class="s-box-5-text" id="s-box-text">
                         <h3>Print</h3>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius aperiam est minima corporis in ipsum et cumque. Quod, recusandae vitae inventore aliquid repellat corporis corrupti laborum, nobis assumenda vero dignissimos.</p>
                         <button class="black-button" href='#print-p'>Print Plans</button>
@@ -124,7 +126,7 @@
             <div class="contact-inter">
                 <div class="message">
                     <h3>Send us a Message</h3>
-                    <Form>
+                    <Form class="message-form">
                         <label for="fullname">Full Name</label>
                         <br>
                         <input id="fullname" class="field">
