@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -46,41 +47,156 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/* CSS Reset*/
+/* Mobile Default*/
 body{
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     line-height: 1;
 }
-nav{
+
+footer p {
+    line-height: 2rem;
+    padding: 25px 0 0 15px;
+    margin: 0
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1.6em;
+    margin: 80px 0 35px 0
+}
+
+p {
+    line-height: 1.5rem;
+    padding-bottom: 15px
+}
+h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 40px 0 15px 15px;
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 40px 0 20px 15px
+}
+
+button{
+    font-size: 1rem;
+}
+.topnav{
     background-color: #222222;
-    color: #C78C06;
+}
+.logo{
+    position: absolute;
+    text-align: center;
+    max-width: 144px;
+    max-height: 144px;
+    left: 5%;
+    top: 5%;
     
 }
-nav ul{
-    list-style: none;
-   
+li, .search-form{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
-nav ul li{
-   
+li a{
+    list-style: none;
+    color: #C78C06;
+    text-decoration: none;
+}
+.active a{
+    color: #222;
+}
+.active{
+    background-color: #C78C06;
+    padding-top: 120px;
+    padding-bottom: 20px;
+    margin: 0 5%
+}
+li{
+    margin:0 5%;
+}
+li:hover a{
+    color: #222;
+}
+li:hover{
+    background-color: #C78C06;
+}
+.go-button{
+    background-color: #222;
+    border: 1px solid #c78c06;
+    color: #c78c06;
 }
 .welcome{
+    background-color: #000000a0;
+    color: #fff;
+    margin: 20% 0;
+    padding: 0 30px 30px 30px;
+    display: flex;
+    flex-direction: column;
+}
+.welcome-background{
     background-image:url("./images/main-banner.jpg");
-    color:white;
+    background-size: cover;
+    height: 800px;
+    background-position: center;
+    display: flex;
+    align-items: center
+}
+.orange-button{
+    background-color: #c78c06;
+    padding: 30px;
+    width: 280px
 }
 .about-main{
     background-color: #FFE6AC;
-    float:right ;
+}
+.about-main p{
+    margin: 1%;
 }
 .about-img{
-    float: left;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin-left: 2%;
+    margin-right: 2%;
 }
-
+#s-box-text{
+    background-color: #FFE6AC;
+}
+.black-button{
+    background-color: #222;
+    display: inline-block;
+    color: #fff;
+    display: inline-block;
+}
+/* Our Vision */
+.our-vision{
+    background-image:url("./images/vision.jpg");
+    background-size: cover;
+    height: 250px;
+    background-position: center;
+    display: flex;
+    align-items: center
+}
+/*Footer style*/
 footer{
     background-color: #222222;
     color: #C78C06;
+    text-decoration: none;
 }
 footer a:visited{
-    text-decoration: none;
+    margin-top: 15px;
+    
     color: #C78C06;
-
+}
+/*Desktop*/
+@media only screen and (min-width:760px) {
+    main {
+        max-width: 1200px;
+        margin: auto
+    }
 }
