@@ -147,9 +147,12 @@ li:hover{
     align-items: center
 }
 .orange-button{
+    font-size: 1.25rem;
     background-color: #c78c06;
     padding: 30px;
-    width: 280px
+    width: 280px;
+    margin: 0;
+    border: 1px solid #c78c06
 }
 .about-main{
     background-color: #FFE6AC;
@@ -168,19 +171,41 @@ li:hover{
     background-color: #FFE6AC;
 }
 .black-button{
+    font-size: 1.25rem;
     background-color: #222;
     display: inline-block;
-    color: #fff;
-    display: inline-block;
+    color: white;
+    padding: 30px;
+    margin: 0;
+    border: 1px solid #c78c06
 }
 /* Our Vision */
 .our-vision{
+    color: white;
     background-image:url("./images/vision.jpg");
     background-size: cover;
     height: 250px;
     background-position: center;
-    display: flex;
-    align-items: center
+}
+.our-vision p button{
+    margin: 5px;
+}
+.trans-button{
+    font-size: 1.25rem;
+    background-color: #000000aa;
+    color: white;
+    padding: 30px;
+    margin: 0;
+    border: 1px solid #c78c06
+}
+.send-button{
+    font-size: 1.25rem;
+    background-color: #222;
+    display: inline-block;
+    color: #c78c06;
+    padding: 30px;
+    margin: 0;
+    border: 1px solid #c78c06
 }
 /*Footer style*/
 footer{
